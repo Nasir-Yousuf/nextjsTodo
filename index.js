@@ -9,6 +9,7 @@ const Todo = () => {
   };
   const addTodo = () => {
     setTodo([...todo, input]);
+    setInput('');
   };
 
   const deleteBtn = (i) => {
